@@ -1,4 +1,4 @@
-const CACHE_NAME = "tet-gyan-v2";
+const CACHE_NAME = "tet-gyan-v3";
 
 const FILES_TO_CACHE = [
   "./",
