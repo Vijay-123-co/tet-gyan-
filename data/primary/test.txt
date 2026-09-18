@@ -168,4 +168,116 @@ const UPTET_2011_PRIMARY = [
 
 {id:84,subject:"English",question:"Choose the opposite of 'drought'.",options:["flood","dryness","brought","river"],answer:0,explanation:"Flood is the opposite of drought."},
 
-{id:85,subject:"English",question:"Choose the opposite of 'ability'.",options:["feasibility","unability","disability"
+{id:85,subject:"English",question:"Choose the opposite of 'ability'.",options:["feasibility","unability","disability","inability"],answer:3,explanation:"Inability is the opposite of ability."},
+
+{id:86,subject:"English",question:"Choose the correct word order.",options:["Music Jack loves","Music loves Jack","Jack loves music","Jack music loves"],answer:2,explanation:"Correct: Jack loves music."},
+
+{id:87,subject:"English",question:"It was my brother who went with ........",options:["her","she","he","his"],answer:0,explanation:"After 'with', the object pronoun 'her' is used."},
+
+{id:88,subject:"English",question:"What are words that spell the same backwards called?",options:["Anagram","Abbreviation","Crossword","Palindrome"],answer:3,explanation:"Such words are called palindromes."},
+
+{id:89,subject:"English",question:"Choose the plural of the given word: box",options:["box","boxer","boxs","boxes"],answer:3,explanation:"The plural of box is boxes."},
+
+{id:90,subject:"English",question:"Choose the singular of: Leaves",options:["leave","leaf","levee","None of these"],answer:1,explanation:"The singular of leaves is leaf."},
+
+{id:91,subject:"गणित",question:"चार अंकों वाली वृहत्तम तथा न्यूनतम संख्याओं का योगफल है—",options:["9999","10000","10999","11999"],answer:2,explanation:"9999 + 1000 = 10999."},
+
+{id:92,subject:"गणित",question:"तापक्रम शुरू में 18°C बढ़ता है फिर 23°C घटता है। यदि प्रारम्भिक तापक्रम 27°C हो, तो अंतिम तापक्रम क्या होगा?",options:["22°C","23°C","24°C","25°C"],answer:0,explanation:"27 + 18 - 23 = 22°C."},
+
+{id:93,subject:"गणित",question:"(-2) × (-3) × (-4) × (-5) × (-6) = ?",options:["-360","360","-720","720"],answer:2,explanation:"गुणनफल -720 है।"},
+
+{id:94,subject:"गणित",question:"8 किग्रा 350 ग्राम में से 3 किग्रा 178 ग्राम घटाइए—",options:["5 किग्रा 172 ग्राम","4 किग्रा 272 ग्राम","4 किग्रा 172 ग्राम","4 किग्रा 472 ग्राम"],answer:0,explanation:"8.350 - 3.178 = 5.172 किग्रा।"},
+
+{id:95,subject:"गणित",question:"3.5 सेमी व्यास वाले वृत्त की परिधि है—",options:["11.3 सेमी","11 सेमी","10.1 सेमी","9.6 सेमी"],answer:1,explanation:"πd = 22/7 × 3.5 = 11 सेमी।"},
+
+{id:96,subject:"गणित",question:"(9 + 7) ÷ 4 × 5 = ?",options:["18","16","20","4"],answer:2,explanation:"16 ÷ 4 × 5 = 20."},
+
+{id:97,subject:"गणित",question:"भिन्नों 3/8, 5/6, 2/3, 5/9 का आरोही क्रम है—",options:["3/8, 5/6, 2/3, 5/9","5/6, 2/3, 5/9, 3/8","3/8, 5/9, 2/3, 5/6","3/8, 2/3, 5/9, 5/6"],answer:2,explanation:"3/8 < 5/9 < 2/3 < 5/6."},
+
+{id:98,subject:"गणित",question:"मार्टिन के पास कुछ मार्बल थे। उसने 14 खो दिए, फिर भी 6 रह गए। आरम्भ में कितने मार्बल थे?",options:["8","20","84","इनमें से कोई नहीं"],answer:1,explanation:"14 + 6 = 20."},
+
+{id:99,subject:"गणित",question:"दिए गए भिन्नात्मक व्यंजक का मान ज्ञात कीजिए।",options:["7/9","2 1/9","1 7/9","7/11"],answer:1,explanation:"प्रश्नपत्र में सही उत्तर 2 1/9 दिया गया है।"},
+
+{id:100,subject:"गणित",question:"2.6 × 0.91 = ?",options:["2.366","0.2366","23.66","236.0"],answer:0,explanation:"2.6 × 0.91 = 2.366."},
+
+{id:101,subject:"गणित",question:"दिए गए मूल वाले व्यंजक का मान है—",options:["4","8","16","32"],answer:0,explanation:"प्रश्नपत्र में सही उत्तर 4 है।"},
+
+{id:102,subject:"गणित",question:"-0.008 का घनमूल क्या है?",options:["-2","-0.2","-0.02","-0.002"],answer:1,explanation:"(-0.2)³ = -0.008."},
+
+{id:103,subject:"गणित",question:"496 और 318 के योग का निकटतम सैकड़ा मान है—",options:["814","800","178","700"],answer:1,explanation:"496 + 318 = 814, जिसका निकटतम सैकड़ा 800 है।"},
+
+{id:104,subject:"गणित",question:"4 - 1/7 = ?",options:["3/7","4 1/7","3 6/7","5/7"],answer:2,explanation:"4 - 1/7 = 3 6/7."},
+
+{id:105,subject:"गणित",question:"2 1/4 + 3/4 = ?",options:["5/4","10/4","1/3","3"],answer:3,explanation:"2 1/4 + 3/4 = 3."},
+
+{id:106,subject:"गणित",question:"एक आयताकार टंकी की लम्बाई 6 मी, चौड़ाई 2.4 मी तथा गहराई 1 मी है। आधी भरी टंकी में जल का आयतन होगा—",options:["6 मी³","6.4 मी³","6.8 मी³","7.2 मी³"],answer:3,explanation:"कुल आयतन 14.4 मी³ और आधा 7.2 मी³ है।"},
+
+{id:107,subject:"गणित",question:"दो समान्तर रेखाओं के बीच की दूरी—",options:["घटती है","बढ़ती है","बराबर रहती है","घट या बढ़ सकती है"],answer:2,explanation:"समान्तर रेखाओं के बीच लम्बवत दूरी समान रहती है।"},
+
+{id:108,subject:"गणित",question:"270° माप का कोण एक उदाहरण है—",options:["न्यून कोण का","अधिक कोण का","समकोण का","प्रतिवर्ती कोण का"],answer:3,explanation:"270° प्रतिवर्ती कोण है।"},
+
+{id:109,subject:"गणित",question:"108 और 144 का ल.स. होगा—",options:["3888","432","648","216"],answer:1,explanation:"108 और 144 का LCM 432 है।"},
+
+{id:110,subject:"गणित",question:"एक त्रिभुज की भुजाएँ 5 सेमी, 12 सेमी तथा 13 सेमी हैं। त्रिभुज का प्रकार बताइए—",options:["समबाहु त्रिभुज","समद्विबाहु त्रिभुज","अधिक कोण त्रिभुज","समकोण त्रिभुज"],answer:3,explanation:"5² + 12² = 13², इसलिए यह समकोण त्रिभुज है।"},
+
+{id:111,subject:"गणित",question:"9 ट्राइसाइकिल में कितने पहिए होंगे?",options:["3","27","9","18"],answer:1,explanation:"9 × 3 = 27."},
+
+{id:112,subject:"गणित",question:"10 1/2 मी लम्बी रस्सी में से 4 5/8 मी काटी गई। शेष रस्सी की लम्बाई है—",options:["5 3/8 मी","5 1/8 मी","5 7/8 मी","5 1/4 मी"],answer:2,explanation:"10 1/2 - 4 5/8 = 5 7/8 मी।"},
+
+{id:113,subject:"गणित",question:"37.188 ÷ 3.6 = ?",options:["9.8","9.66","10.33","11.6"],answer:2,explanation:"37.188 ÷ 3.6 = 10.33."},
+
+{id:114,subject:"गणित",question:"999 तथा 3000 के बीच 4 अंकों वाली कितनी संख्याएँ हैं?",options:["2001","2000","1999","1998"],answer:1,explanation:"1000 से 2999 तक कुल 2000 संख्याएँ हैं।"},
+
+{id:115,subject:"गणित",question:"बिना कोई शेषफल के निम्न में से कौन-सी संख्या 9361 को विभाजित करती है?",options:["19","17","13","11"],answer:3,explanation:"9361 संख्या 11 से विभाज्य है।"},
+
+{id:116,subject:"गणित",question:"1 1/2 में कितने आधे हैं?",options:["1","2","3","इनमें से कोई नहीं"],answer:2,explanation:"1 1/2 ÷ 1/2 = 3."},
+
+{id:117,subject:"गणित",question:"44 - 6 + 43 × 2 - 87 = ?",options:["37","38","73","83"],answer:0,explanation:"44 - 6 + 86 - 87 = 37."},
+
+{id:118,subject:"गणित",question:"8.2 सेमी लम्बी प्रत्येक भुजा वाले वर्ग की परिमिति क्या है?",options:["64.16 सेमी","67.24 सेमी","32.8 सेमी","16.2 सेमी"],answer:2,explanation:"4 × 8.2 = 32.8 सेमी।"},
+
+{id:119,subject:"गणित",question:"एक टिन में 20 लीटर पेट्रोल है। रिसाव से 3 लीटर की हानि हुई। कितने प्रतिशत पेट्रोल रह गया?",options:["66 2/3%","68%","82%","85%"],answer:3,explanation:"17/20 × 100 = 85%."},
+
+{id:120,subject:"गणित",question:"3 पेंसिल का मूल्य ₹20 है। 6 दर्जन का मूल्य क्या होगा?",options:["₹40","₹48","₹480","₹400"],answer:2,explanation:"6 दर्जन = 72 पेंसिल; मूल्य ₹480 होगा।"},
+
+{id:121,subject:"पर्यावरण शिक्षा",question:"लवण जो जल का अवशोषण करता है, कहलाता है—",options:["हाइग्रोस्कोपिक लवण","एनहाइड्रस लवण","हाइड्रोफिलिक लवण","हाइड्रोफोबिक लवण"],answer:0,explanation:"हाइग्रोस्कोपिक लवण जल का अवशोषण करता है।"},
+
+{id:122,subject:"पर्यावरण शिक्षा",question:"पारिस्थितिक तंत्र एवं प्राकृतिक अधिवासों का संरक्षण तथा प्राकृतिक वातावरण में प्रजातियों की जीवनक्षम जनसंख्या का रख-रखाव एवं पुनर्प्राप्ति कहलाता है—",options:["क्रोड संरक्षण","स्वस्थाने संरक्षण","अपस्थाने संरक्षण","परिधीय संरक्षण"],answer:1,explanation:"यह स्वस्थाने अर्थात In-situ conservation है।"},
+
+{id:123,subject:"पर्यावरण शिक्षा",question:"भारतीय उपमहाद्वीप के जल भागों में पाए जाने वाले समुद्री कछुओं में सबसे अधिक संख्या किसकी है?",options:["केम्प्स रिडले","लॉगरहेड","ऑलिव रिडले","फ्लैटबैक"],answer:2,explanation:"सही उत्तर ऑलिव रिडले है।"},
+
+{id:124,subject:"पर्यावरण शिक्षा",question:"विश्व ऊष्मायन के लिए निम्न में से कौन एक कारक है?",options:["वाहनों से निकली गैसें","पेड़-पौधों से निकली गैसें","भट्टियों से निकली गर्म हवा","रसोई गैस"],answer:0,explanation:"वाहनों से निकली ग्रीनहाउस गैसें विश्व ऊष्मायन में योगदान करती हैं।"},
+
+{id:125,subject:"पर्यावरण शिक्षा",question:"धातुमय प्रस्तर किसे कहा जाता है?",options:["बिटुमिन","बॉक्साइट","मेटालॉयड","अयस्क"],answer:3,explanation:"धातु प्राप्त करने वाले खनिज पदार्थ को अयस्क कहते हैं।"},
+
+{id:126,subject:"पर्यावरण शिक्षा",question:"पेड़-पौधे प्रदूषण को घटाते हैं क्योंकि वे अवशोषण करते हैं—",options:["सल्फर डाइऑक्साइड","कार्बन डाइऑक्साइड","कार्बन मोनोऑक्साइड","नाइट्रोजन"],answer:1,explanation:"पेड़-पौधे कार्बन डाइऑक्साइड का अवशोषण करते हैं।"},
+
+{id:127,subject:"पर्यावरण शिक्षा",question:"भूकम्प मापा जाता है—",options:["ब्यूफोर्ट पैमाने में","डेसीबल में","न्यूटन में","रिक्टर पैमाने में"],answer:3,explanation:"प्रश्नपत्र के अनुसार सही उत्तर रिक्टर पैमाना है।"},
+
+{id:128,subject:"पर्यावरण शिक्षा",question:"महासागरों में जल स्तर वृद्धि का कारण है—",options:["ध्रुवीय प्रदेश में बर्फ का पिघलना","अत्यधिक वर्षा","अम्ल वर्षा","उपरोक्त में से कोई नहीं"],answer:0,explanation:"ध्रुवीय बर्फ के पिघलने से समुद्र का जल स्तर बढ़ता है।"},
+
+{id:129,subject:"पर्यावरण शिक्षा",question:"वातावरण में अत्यधिक हानिकारक सल्फर मिश्रित गैस है—",options:["S","H2S","SF6","SO2"],answer:3,explanation:"प्रश्नपत्र में SO2 सही उत्तर है।"},
+
+{id:130,subject:"पर्यावरण शिक्षा",question:"वायु प्रदूषण को कम किया जा सकता है—",options:["वृक्षों द्वारा","मछलियों द्वारा","जन्तुओं द्वारा","सूर्य प्रकाश द्वारा"],answer:0,explanation:"वृक्ष वायु प्रदूषण कम करने में सहायक हैं।"},
+
+{id:131,subject:"पर्यावरण शिक्षा",question:"विश्व पर्यावरण दिवस मनाया जाता है—",options:["5 नवम्बर को","5 जनवरी को","5 जून को","5 सितम्बर को"],answer:2,explanation:"विश्व पर्यावरण दिवस 5 जून को मनाया जाता है।"},
+
+{id:132,subject:"पर्यावरण शिक्षा",question:"सूर्य की हानिकारक किरणों से पृथ्वी को कौन-सा स्तर सुरक्षित रखता है?",options:["आयन मण्डल","ओजोन स्तर","क्षोभ मण्डल","चुम्बक मण्डल"],answer:1,explanation:"ओजोन परत हानिकारक पराबैंगनी किरणों को अवशोषित करती है।"},
+
+{id:133,subject:"पर्यावरण शिक्षा",question:"किसी जगह के फ्लोरा और फौना सूचित करते हैं—",options:["पेड़-पौधों एवं जन्तुओं को","मछलियों एवं पेड़-पौधों को","जन्तुओं एवं मछलियों को","पक्षियों एवं पेड़-पौधों को"],answer:0,explanation:"Flora वनस्पति तथा Fauna जन्तुओं को दर्शाता है।"},
+
+{id:134,subject:"पर्यावरण शिक्षा",question:"पारिस्थितिकी तंत्र का उदाहरण है—",options:["वायु","तालाब","जल","मृदा"],answer:1,explanation:"तालाब पारिस्थितिकी तंत्र का उदाहरण है।"},
+
+{id:135,subject:"पर्यावरण शिक्षा",question:"कौन जीवकीय कारक नहीं है?",options:["पेड़-पौधे","जन्तु","सूक्ष्म जीव","प्रस्तर"],answer:3,explanation:"प्रस्तर निर्जीव अर्थात अजैविक कारक है।"},
+
+{id:136,subject:"पर्यावरण शिक्षा",question:"अधिकतर पेड़-पौधे पाए जाते हैं—",options:["स्थलमण्डल में","जलमण्डल में","वायुमण्डल में","प्रकाशमण्डल में"],answer:0,explanation:"प्रश्नपत्र में स्थलमण्डल सही उत्तर है।"},
+
+{id:137,subject:"पर्यावरण शिक्षा",question:"अन्य मृत जन्तुओं पर निर्वाह करने वाले प्राणी को कहते हैं—",options:["पैरासाइट","डीकम्पोजर","स्कैवेंजर","ऑम्नीवोर"],answer:2,explanation:"मृत जन्तुओं को भोजन बनाने वाले प्राणी Scavenger कहलाते हैं।"},
+
+{id:138,subject:"पर्यावरण शिक्षा",question:"CNG संक्षिप्त रूप है—",options:["Clean Natural Gas","Compressed Natural Gas","Carbonized Natural Gas","Carburetted Natural Gas"],answer:1,explanation:"CNG का पूरा नाम Compressed Natural Gas है।"}
+
+];
+
+if (typeof window !== "undefined") {
+  window.UPTET_2011_PRIMARY = UPTET_2011_PRIMARY;
+}
