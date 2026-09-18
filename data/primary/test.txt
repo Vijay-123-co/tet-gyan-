@@ -1,1 +1,171 @@
-Primary papers
+const UPTET_2011_PRIMARY = [
+
+{id:1,subject:"बाल विकास एवं शिक्षण विधि",question:"निम्न कक्षाओं में शिक्षण की खेल विधि आधारित है—",options:["शारीरिक शिक्षा कार्यक्रमों के सिद्धान्त पर","शिक्षण की विधियों के सिद्धान्त पर","विकास एवं वृद्धि के मनोवैज्ञानिक सिद्धान्त पर","शिक्षण के सामाजिक सिद्धान्तों पर"],answer:2,explanation:"खेल विधि बालक की वृद्धि एवं विकास के मनोवैज्ञानिक सिद्धान्तों पर आधारित है।"},
+
+{id:2,subject:"बाल विकास एवं शिक्षण विधि",question:"डिस्लेक्सिया सम्बन्धित है—",options:["मानसिक विकार से","गणितीय विकार से","पठन विकार से","व्यावहारिक विकार से"],answer:2,explanation:"डिस्लेक्सिया पठन से सम्बन्धित विकार है।"},
+
+{id:3,subject:"बाल विकास एवं शिक्षण विधि",question:"विशेष रूप से जरूरतमंद बच्चों की शिक्षा का प्रबन्ध होना चाहिए—",options:["दूसरे सामान्य बच्चों के साथ","विशेष विद्यालयों में विशेष बच्चों के लिए विकसित विधियों द्वारा","विशेष विद्यालयों में","विशेष विद्यालयों में विशेष शिक्षकों द्वारा"],answer:0,explanation:"समावेशी शिक्षा में विशेष जरूरत वाले बच्चों को सामान्य बच्चों के साथ शिक्षा दी जाती है।"},
+
+{id:4,subject:"बाल विकास एवं शिक्षण विधि",question:"अधिगम के प्रक्रम में अभिप्रेरणा—",options:["सीखने वालों की स्मृति को तेज बनाती है","पुराने अधिगम से नए अधिगम को विभेदित करती है","एकदिशीय रूप से सोचने में सीखने वालों को प्रस्तुत करती है","नए सीखने वालों में अधिगम के लिए रुचि का सृजन करती है"],answer:3,explanation:"अभिप्रेरणा अधिगम के प्रति रुचि उत्पन्न करती है।"},
+
+{id:5,subject:"बाल विकास एवं शिक्षण विधि",question:"कक्षा पाँच के न्यून दृष्टि वाले बच्चे को—",options:["निम्न स्तर के कार्य के लिए माफ करना उचित है","दैनिक कार्य में माता-पिता तथा मित्रों की सहायता करनी चाहिए","कक्षा में सामान्य रूप से व्यवहार करना चाहिए एवं ऑडियो सीडी के जरिए सहायता प्रदान करनी चाहिए","कक्षा में विशेष व्यवहार करना चाहिए"],answer:2,explanation:"न्यून दृष्टि वाले बच्चे को सामान्य कक्षा में उचित श्रव्य सहायता दी जा सकती है।"},
+
+{id:6,subject:"बाल विकास एवं शिक्षण विधि",question:"श्यामपट्ट को शिक्षण सामग्री के किस समूह के अन्तर्गत किया जा सकता है?",options:["श्रव्य साधन","दृश्य साधन","दृश्य-श्रव्य साधन","इनमें से कोई नहीं"],answer:1,explanation:"श्यामपट्ट दृश्य शिक्षण सामग्री है।"},
+
+{id:7,subject:"बाल विकास एवं शिक्षण विधि",question:"निम्न में से कौन शिक्षण कुशलता से सम्बन्धित है?",options:["श्यामपट्ट पर लिखना","प्रश्नों को हल करना","प्रश्न पूछना","उपरोक्त सभी"],answer:3,explanation:"ये सभी शिक्षण कौशल से सम्बन्धित हैं।"},
+
+{id:8,subject:"बाल विकास एवं शिक्षण विधि",question:"कक्षा में जो विद्यार्थी प्रश्न पूछते हैं उन्हें—",options:["कक्षा के बाद शिक्षक से मिलने की सलाह दी जाए","कक्षा चर्चा में भाग लेने के लिए प्रोत्साहित किया जाए","लगातार प्रश्न पूछने के लिए प्रोत्साहित किया जाए","स्वतन्त्र रूप से उत्तर ढूँढने के लिए प्रोत्साहित किया जाए"],answer:2,explanation:"प्रश्नपत्र में सही विकल्प (C) दिया गया है।"},
+
+{id:9,subject:"बाल विकास एवं शिक्षण विधि",question:"शिक्षा की किंडरगार्टन पद्धति का प्रतिपादन किया—",options:["टी. पी. नन ने","स्पेंसर ने","फ्रोबेल ने","मॉन्टेसरी ने"],answer:2,explanation:"किंडरगार्टन पद्धति का प्रतिपादन फ्रोबेल ने किया।"},
+
+{id:10,subject:"बाल विकास एवं शिक्षण विधि",question:"एक अभिभावक आपसे विद्यालय में मिलने के लिए कभी नहीं आता है। आप—",options:["बच्चे की उपेक्षा करेंगे","अभिभावक को लिखेंगे","आप स्वयं उनसे मिलने जाएंगे","बच्चे को दण्ड देना शुरू करेंगे"],answer:2,explanation:"प्रश्नपत्र में सही विकल्प (C) है।"},
+
+{id:11,subject:"बाल विकास एवं शिक्षण विधि",question:"बचपन के समकालीन दृष्टिकोण की मान्यता है—",options:["बहुत तरीकों से बच्चे प्रौढ़ों के बराबर हो जाते हैं","बच्चों को युवा प्रौढ़ों के रूप में सबसे अच्छा माना जाता है","बचपन आधारिक रूप से प्रतीक्षा अवधि है","बचपन वृद्धि एवं परिवर्तन की एक अनूठी अवधि है"],answer:3,explanation:"बचपन वृद्धि एवं परिवर्तन की अनूठी अवधि है।"},
+
+{id:12,subject:"बाल विकास एवं शिक्षण विधि",question:"एक प्रमाणीकृत पठन परीक्षण के लिए पाँचवीं कक्षा को प्रस्तुत करने में शिक्षक को अधिकाधिक परामर्श दिया जाता है कि—",options:["बच्चों को बताए कि परीक्षण बहुत महत्वपूर्ण है","पूर्ववर्ती परीक्षा के प्रधान प्रश्नों के उत्तर देने दे","निम्न कोटि के पाठकों को प्रशिक्षण दे","समान प्रकार के प्रश्नों के उत्तर देने का अभ्यास कराए"],answer:3,explanation:"प्रश्नपत्र में विकल्प (D) सही है।"},
+
+{id:13,subject:"बाल विकास एवं शिक्षण विधि",question:"असंगठित घर से आने वाला बच्चा सबसे अधिक कठिनाई का अनुभव करेगा—",options:["सुनिर्मित पाठों में","स्वतन्त्र अध्ययन में","नियोजित निर्देश में","अभ्यास पुस्तिकाओं में"],answer:1,explanation:"सही उत्तर स्वतन्त्र अध्ययन है।"},
+
+{id:14,subject:"बाल विकास एवं शिक्षण विधि",question:"आप देखते हैं कि एक छात्र बुद्धिमान है। आप—",options:["उसके साथ सन्तुष्ट रहेंगे","उसे अतिरिक्त गृहकार्य नहीं देंगे","वह जैसे अधिक प्रगति कर सके उस तरह से उसे अनुप्रेरित करेंगे","उसके अभिभावकों को सूचित करेंगे"],answer:2,explanation:"बुद्धिमान विद्यार्थी को अधिक प्रगति के लिए प्रेरित करना चाहिए।"},
+
+{id:15,subject:"बाल विकास एवं शिक्षण विधि",question:"यदि कुछ विद्यार्थी कक्षा में अध्ययन की चित्तवृत्ति में नहीं हैं, तो आप—",options:["उन्हें अध्ययन के लिए बाध्य करेंगे","कक्षा छोड़ने को कहेंगे","चेतावनी देंगे","उनकी रुचि के अनुसार विषय से जुड़ी रुचिपूर्ण चीजें बताएँगे"],answer:3,explanation:"रुचिपूर्ण शिक्षण से अध्ययन में रुचि बढ़ती है।"},
+
+{id:16,subject:"बाल विकास एवं शिक्षण विधि",question:"वह स्तर जिसमें बच्चा किसी वस्तु एवं घटना के बारे में तार्किक रूप से सोचना शुरू करता है, कहा जाता है—",options:["संवेदी-गामक अवस्था","औपचारिक अवस्था","पूर्व-संक्रियात्मक अवस्था","मूर्त संक्रियात्मक अवस्था"],answer:3,explanation:"यह मूर्त संक्रियात्मक अवस्था है।"},
+
+{id:17,subject:"बाल विकास एवं शिक्षण विधि",question:"बच्चों के बौद्धिक विकास के चार सुस्पष्ट स्तरों को पहचाना गया था—",options:["कोहलबर्ग द्वारा","एरिक्सन द्वारा","स्किनर द्वारा","पियाजे द्वारा"],answer:3,explanation:"पियाजे ने संज्ञानात्मक विकास की चार अवस्थाएँ बताईं।"},
+
+{id:18,subject:"बाल विकास एवं शिक्षण विधि",question:"अल्प वयस्क बच्चों के अधिगम में अभिभावकों की भूमिका होनी चाहिए—",options:["निषेधात्मक","अग्र सक्रिय","संवेदनात्मक","उदासीन"],answer:1,explanation:"प्रश्नपत्र में विकल्प (B) सही है।"},
+
+{id:19,subject:"बाल विकास एवं शिक्षण विधि",question:"बच्चों के संज्ञानात्मक विकास को सबसे अच्छे तरीके से कहाँ परिभाषित किया जा सकता है?",options:["खेल के मैदान में","विद्यालय एवं कक्षा में","ऑडिटोरियम में","गृह में"],answer:1,explanation:"सही उत्तर विद्यालय एवं कक्षा है।"},
+
+{id:20,subject:"बाल विकास एवं शिक्षण विधि",question:"............. को अनुप्रेरित शिक्षण के एक संकेत के रूप में विवेचित किया जाता है—",options:["कक्षा में अधिकतम उपस्थिति","शिक्षक द्वारा दिया गया उपचारात्मक कार्य","विद्यार्थियों द्वारा प्रश्न पूछना","कक्षा में पूर्ण नीरसता"],answer:2,explanation:"विद्यार्थियों द्वारा प्रश्न पूछना सक्रिय शिक्षण का संकेत है।"},
+
+{id:21,subject:"बाल विकास एवं शिक्षण विधि",question:"कक्षा में विद्यार्थियों की रुचि बनाए रखने के लिए एक शिक्षक को उचित है—",options:["श्यामपट्ट का प्रयोग करना","चर्चा करना","कहानी कहना","प्रश्न पूछना"],answer:3,explanation:"प्रश्न पूछने से विद्यार्थियों की रुचि बनी रहती है।"},
+
+{id:22,subject:"बाल विकास एवं शिक्षण विधि",question:"विद्यार्थियों को विद्यालय में खेलना क्यों उचित है?",options:["यह उन्हें शारीरिक रूप से सशक्त बनाएगा","यह शिक्षकों के लिए काम आसान करेगा","यह समय बिताने में सहायक होगा","यह सहयोग एवं संतुलन का विकास करेगा"],answer:3,explanation:"खेल सहयोग एवं संतुलन के विकास में सहायक है।"},
+
+{id:23,subject:"बाल विकास एवं शिक्षण विधि",question:"परिवार एक साधन है—",options:["अनौपचारिक शिक्षा का","औपचारिक शिक्षा का","गैर-औपचारिक शिक्षा का","दूरस्थ शिक्षा का"],answer:0,explanation:"परिवार अनौपचारिक शिक्षा का प्रमुख साधन है।"},
+
+{id:24,subject:"बाल विकास एवं शिक्षण विधि",question:"एक शिक्षक विद्यार्थियों में सामाजिक मूल्यों को विकसित कर सकता है—",options:["महान व्यक्तियों के बारे में बोलकर","अनुशासन की अनुभूति विकसित कर","आदर्श रूप में व्यवहार कर","अच्छी कहानियाँ सुनाकर"],answer:2,explanation:"शिक्षक स्वयं आदर्श व्यवहार करके सामाजिक मूल्य विकसित कर सकता है।"},
+
+{id:25,subject:"बाल विकास एवं शिक्षण विधि",question:"एक शिक्षक के लिए सबसे महत्वपूर्ण क्या है?",options:["कक्षा में अनुशासन बनाए रखना","कक्षा में समयानुवर्ती होना","विद्यार्थियों की कठिनाइयों को दूर करना","एक सुवक्ता होना"],answer:2,explanation:"विद्यार्थियों की कठिनाइयों का समाधान महत्वपूर्ण दायित्व है।"},
+
+{id:26,subject:"बाल विकास एवं शिक्षण विधि",question:"आप एक अतिसक्रिय बालक को कैसे सही दिशा में लाएँगे?",options:["उसे पहली पंक्ति में बैठाकर कड़ी नजर रखेंगे","उसे कक्षा के कोने में बैठाएँगे","उसे श्यामपट्ट आदि साफ करने का काम देंगे","इनमें से कोई नहीं"],answer:2,explanation:"उसे उपयोगी कक्षा गतिविधि में व्यस्त रखना उचित है।"},
+
+{id:27,subject:"बाल विकास एवं शिक्षण विधि",question:"पृथक-पृथक सजातीय समूहों के व्यक्तियों के प्रति बच्चों की अभिवृत्ति साधारणतः आधारित होती है—",options:["उनके अभिभावकों की चित्तवृत्ति पर","उनके समकक्षियों की अभिवृत्ति पर","दूरदर्शन के प्रभाव पर","उनके सहोदरों की अभिवृत्ति पर"],answer:0,explanation:"प्रश्नपत्र में अभिभावकों की चित्तवृत्ति सही उत्तर है।"},
+
+{id:28,subject:"बाल विकास एवं शिक्षण विधि",question:"आपको अपनी कक्षा में दो मंदबुद्धि बच्चों को बैठाने के लिए कहा गया है। आप—",options:["उन्हें विद्यार्थी के रूप में ग्रहण करने से इनकार करेंगे","उन्हें विशेष कक्षा में भेजने को कहेंगे","ऐसे विद्यार्थियों को सिखाने की तकनीक सीखेंगे","इनमें से कोई नहीं"],answer:2,explanation:"शिक्षक को ऐसे विद्यार्थियों के लिए उपयुक्त शिक्षण तकनीक सीखनी चाहिए।"},
+
+{id:29,subject:"बाल विकास एवं शिक्षण विधि",question:"एक शिक्षक को साधन सम्पन्न होना चाहिए। इसका अर्थ है—",options:["उसके पास पर्याप्त धन-संपदा हो","अधिकारियों के उच्च स्तर से सम्पर्क हो","विद्यार्थियों की समस्याओं को हल करने का पर्याप्त ज्ञान हो","विद्यार्थियों के बीच प्रसिद्धि हो"],answer:2,explanation:"साधन सम्पन्न शिक्षक के पास विद्यार्थियों की समस्याएँ हल करने का ज्ञान होना चाहिए।"},
+
+{id:30,subject:"बाल विकास एवं शिक्षण विधि",question:"बच्चों में संवेगात्मक समायोजन प्रभावी होता है—",options:["व्यक्तित्व निर्माण में","कक्षा शिक्षण में","अनुशासन में","उपरोक्त सभी"],answer:3,explanation:"यह तीनों क्षेत्रों में प्रभावी है।"},
+
+{id:31,subject:"हिन्दी",question:"'अपमान' शब्द में प्रयुक्त उपसर्ग है—",options:["अव","उप","अति","अप"],answer:3,explanation:"अपमान में 'अप' उपसर्ग है।"},
+
+{id:32,subject:"हिन्दी",question:"'दुरवस्था' शब्द में प्रयुक्त उपसर्ग है—",options:["दुस्","दुर्","अव","दु"],answer:1,explanation:"दुरवस्था में 'दुर्' उपसर्ग है।"},
+
+{id:33,subject:"हिन्दी",question:"'पराजय' शब्द में प्रयुक्त उपसर्ग है—",options:["परि","प्र","परा","आ"],answer:2,explanation:"पराजय में 'परा' उपसर्ग है।"},
+
+{id:34,subject:"हिन्दी",question:"द्विगु समास का उदाहरण है—",options:["माता-पिता","यथाशक्ति","नवग्रह","पीताम्बर"],answer:2,explanation:"नवग्रह = नौ ग्रहों का समूह; यह द्विगु समास है।"},
+
+{id:35,subject:"हिन्दी",question:"हिन्दी किस लिपि में लिखी जाती है?",options:["ब्राह्मी","देवनागरी","खरोष्ठी","गुरुमुखी"],answer:1,explanation:"हिन्दी देवनागरी लिपि में लिखी जाती है।"},
+
+{id:36,subject:"हिन्दी",question:"सर्वनाम के कितने भेद होते हैं?",options:["छः","पाँच","सात","चार"],answer:0,explanation:"प्रश्नपत्र में सर्वनाम के छह भेद दिए गए हैं।"},
+
+{id:37,subject:"हिन्दी",question:"आकाश-पाताल के बीच लगने वाला (-) चिह्न है—",options:["अल्पविराम चिह्न","विस्मयादिबोधक","योजक चिह्न","उद्धरण चिह्न"],answer:2,explanation:"(-) योजक चिह्न है।"},
+
+{id:38,subject:"हिन्दी",question:"'यह नई साड़ी है।' वाक्य में 'नई' शब्द है—",options:["सर्वनाम","क्रिया","क्रिया विशेषण","विशेषण"],answer:3,explanation:"नई, साड़ी की विशेषता बताता है; अतः विशेषण है।"},
+
+{id:39,subject:"हिन्दी",question:"नीचे दिए गए विकल्पों में से तत्सम शब्द का चयन कीजिए—",options:["आम्र","दूध","शहीद","खिड़की"],answer:0,explanation:"आम्र तत्सम शब्द है।"},
+
+{id:40,subject:"हिन्दी",question:"दिए गए विकल्पों में से तद्भव शब्द का चयन कीजिए—",options:["बैंक","अमीर","अग्नि","मुँह"],answer:3,explanation:"मुँह तद्भव है; इसका तत्सम मुख है।"},
+
+{id:41,subject:"हिन्दी",question:"निम्न में से कौन-सा शब्द 'सूर्य' का पर्यायवाची नहीं है?",options:["दिनकर","रवि","अंशुमाली","यामिनी"],answer:3,explanation:"यामिनी रात्रि का पर्यायवाची है।"},
+
+{id:42,subject:"हिन्दी",question:"'मनोरथ' का संधि-विच्छेद होगा—",options:["मनः + रथ","मन + ओरथ","मनो + रथ","मन + रथ"],answer:0,explanation:"मनः + रथ = मनोरथ।"},
+
+{id:43,subject:"हिन्दी",question:"'विद्यार्थी' उदाहरण है—",options:["वृद्धि स्वर संधि का","गुण स्वर संधि का","व्यंजन संधि का","दीर्घ स्वर संधि का"],answer:3,explanation:"विद्या + अर्थी = विद्यार्थी; प्रश्नपत्र में दीर्घ स्वर संधि दिया है।"},
+
+{id:44,subject:"हिन्दी",question:"'दिग्भ्रम' उदाहरण है—",options:["विसर्ग संधि का","अयादि स्वर संधि का","व्यंजन संधि का","यण स्वर संधि का"],answer:2,explanation:"दिक् + भ्रम = दिग्भ्रम; यह व्यंजन संधि है।"},
+
+{id:45,subject:"हिन्दी",question:"'बिल्ली छत से कूद पड़ी।' कौन-सा कारक है?",options:["अधिकरण कारक","कर्म कारक","सम्प्रदान कारक","अपादान कारक"],answer:3,explanation:"अलगाव का बोध कराने वाला 'से' अपादान कारक है।"},
+
+{id:46,subject:"हिन्दी",question:"'जो युद्ध में स्थिर रहता है' के लिए एक शब्द है—",options:["यशस्वी","सत्याग्रही","युधिष्ठिर","अश्वारोही"],answer:2,explanation:"सही शब्द युधिष्ठिर है।"},
+
+{id:47,subject:"हिन्दी",question:"शैव कहते हैं—",options:["जो शक्ति की उपासना करता है","जो शिव की उपासना करता है","जो विष्णु की उपासना करता है","जो किसी की उपासना नहीं करता"],answer:1,explanation:"शिव की उपासना करने वाला शैव कहलाता है।"},
+
+{id:48,subject:"हिन्दी",question:"वाचाल कहते हैं—",options:["जो जल्दी चलता है","जिसकी चाल ठीक न हो","जो बहुत बोलता है","जो चुप रहता है"],answer:2,explanation:"बहुत बोलने वाला वाचाल कहलाता है।"},
+
+{id:49,subject:"हिन्दी",question:"'श्याम धीरे-धीरे चलता है।' में 'धीरे-धीरे' शब्द है—",options:["क्रिया","क्रिया विशेषण","विशेषण","इनमें से कोई नहीं"],answer:1,explanation:"धीरे-धीरे क्रिया की विशेषता बताता है, अतः क्रिया विशेषण है।"},
+
+{id:50,subject:"हिन्दी",question:"वर्तनी के अनुसार शुद्ध शब्द चुनिए—",options:["आनुषंगिक","आनुसंगिक","अनुसंगिक","आनुषंगींक"],answer:0,explanation:"आनुषंगिक शुद्ध वर्तनी है।"},
+
+{id:51,subject:"हिन्दी",question:"वर्तनी के अनुसार शुद्ध शब्द चुनिए—",options:["अन्ताक्षरी","अन्त्याक्षरी","अन्तअक्षरी","अन्ताक्षरि"],answer:1,explanation:"अन्त्याक्षरी शुद्ध वर्तनी है।"},
+
+{id:52,subject:"हिन्दी",question:"वर्तनी के अनुसार शुद्ध शब्द चुनिए—",options:["सुषमा","सुशमा","शुषमा","सुसमा"],answer:0,explanation:"सुषमा शुद्ध वर्तनी है।"},
+
+{id:53,subject:"हिन्दी",question:"'घुमक्कड़' में प्रयुक्त प्रत्यय है—",options:["ओड़ा","अक्कड़","आक","ऊ"],answer:1,explanation:"घुमक्कड़ में 'अक्कड़' प्रत्यय है।"},
+
+{id:54,subject:"हिन्दी",question:"'डिबिया' में प्रयुक्त प्रत्यय है—",options:["इया","आ","आई","ई"],answer:0,explanation:"डिबिया में 'इया' प्रत्यय है।"},
+
+{id:55,subject:"हिन्दी",question:"'भिक्षुक' में प्रयुक्त प्रत्यय है—",options:["अ","उ","उक","अक"],answer:2,explanation:"भिक्षुक में 'उक' प्रत्यय है।"},
+
+{id:56,subject:"हिन्दी",question:"निम्न में से कौन-सा शब्द 'बादल' का पर्यायवाची है?",options:["नीरद","नीरज","अम्बुज","अम्बु"],answer:0,explanation:"नीरद बादल का पर्यायवाची है।"},
+
+{id:57,subject:"हिन्दी",question:"इन्द्रियों को जीतने वाले के लिए एक शब्द है—",options:["दूरदर्शी","दत्तचित्त","कुशाग्र बुद्धि","जितेन्द्रिय"],answer:3,explanation:"इन्द्रियों को जीतने वाला जितेन्द्रिय कहलाता है।"},
+
+{id:58,subject:"हिन्दी",question:"'अहा! आप आ गए' वाक्य में 'अहा' शब्द है—",options:["संज्ञा","सर्वनाम","अव्यय","विशेषण"],answer:2,explanation:"अहा अव्यय है।"},
+
+{id:59,subject:"हिन्दी",question:"निम्न में से पुल्लिंग शब्द कौन-सा है?",options:["नदी","पानी","इलायची","प्यास"],answer:1,explanation:"पानी पुल्लिंग शब्द है।"},
+
+{id:60,subject:"हिन्दी",question:"'पवन' का संधि-विच्छेद है—",options:["प + अवन","प + वन","पो + अन","पौ + अन"],answer:2,explanation:"प्रश्नपत्र के अनुसार पो + अन = पवन, अयादि स्वर संधि।"},
+
+{id:61,subject:"English",question:"Choose the option that is nearly the same in meaning: Ancient",options:["new","mint","aged","sage"],answer:2,explanation:"Ancient is nearly the same in meaning as aged."},
+
+{id:62,subject:"English",question:"Choose the option that is nearly the same in meaning: Plenty",options:["lot","scarce","gift","bonus"],answer:0,explanation:"Plenty means a large amount; 'lot' is the nearest option."},
+
+{id:63,subject:"English",question:"Choose the word that can join: Write Properly. Don't write at all.",options:["but","and","so","or"],answer:3,explanation:"Correct: Write properly or don't write at all."},
+
+{id:64,subject:"English",question:"Choose the word that can join: She is pretty. She is proud.",options:["but","because","while","not"],answer:0,explanation:"Correct conjunction is 'but'."},
+
+{id:65,subject:"English",question:"Identify the verb: The leaves were yellow and sticky.",options:["leaves","were","yellow","sticky"],answer:1,explanation:"'Were' is the verb."},
+
+{id:66,subject:"English",question:"Choose the plural of: knife",options:["knife","knifes","knives","knifey"],answer:2,explanation:"The plural of knife is knives."},
+
+{id:67,subject:"English",question:"Choose the correct spelling.",options:["ricieve","recieve","riceive","receive"],answer:3,explanation:"The correct spelling is receive."},
+
+{id:68,subject:"English",question:"Choose the correct spelling.",options:["posess","possess","posses","posseis"],answer:1,explanation:"The correct spelling is possess."},
+
+{id:69,subject:"English",question:"Choose the incorrect spelling.",options:["loner","mathemetics","grammar","arithmetic"],answer:1,explanation:"'mathemetics' is incorrect; the correct spelling is mathematics."},
+
+{id:70,subject:"English",question:"Which is not a synonym of 'quarrel'?",options:["argument","bickering","discord","quarry"],answer:3,explanation:"Quarry is not a synonym of quarrel."},
+
+{id:71,subject:"English",question:"Choose the option to which you cannot add -er at its end and form a new word.",options:["soon","quick","time","wick"],answer:2,explanation:"The source marks 'time' as the answer."},
+
+{id:72,subject:"English",question:"There aren't ........ people here.",options:["much","many","a lot","some"],answer:1,explanation:"Many is used with countable nouns such as people."},
+
+{id:73,subject:"English",question:"You should ........ your homework.",options:["make","do","work","give"],answer:1,explanation:"Correct expression: do your homework."},
+
+{id:74,subject:"English",question:"Choose the correct word order.",options:["I lent my pencil him","My pencil I lent him","My pencil him I lent","I lent him my pencil"],answer:3,explanation:"Correct: I lent him my pencil."},
+
+{id:75,subject:"English",question:"Choose the option to which you can add -ly at the end to form a new word.",options:["soon","late","now","fast"],answer:1,explanation:"Late + ly = lately."},
+
+{id:76,subject:"English",question:"Which prefix can be used with: take, chief, behave?",options:["non","dis","in","mis"],answer:3,explanation:"mistake, mischief and misbehave use the prefix mis-."},
+
+{id:77,subject:"English",question:"He deals ........ rice.",options:["in","with","at","on"],answer:0,explanation:"Correct expression: deals in rice."},
+
+{id:78,subject:"English",question:"Which suffix can be used with: spoon, mouth?",options:["ily","y","er","ful"],answer:3,explanation:"spoonful and mouthful."},
+
+{id:79,subject:"English",question:"Shall we go to the gym now?",options:["I'm too tired","It's very good","Not at all","I suppose you can"],answer:2,explanation:"The source marks 'Not at all' as the answer."},
+
+{id:80,subject:"English",question:"Which is the adjective? The tall girl met a boy.",options:["tall","girl","met","boy"],answer:0,explanation:"Tall is the adjective."},
+
+{id:81,subject:"English",question:"Which is not an antonym of 'lovely'?",options:["tall","ugly","drab","awful"],answer:0,explanation:"Tall is not an antonym of lovely."},
+
+{id:82,subject:"English",question:"What is your city like?",options:["I have no idea","It's small, but nice","I like it a lot","I don't like it"],answer:1,explanation:"The source marks 'It's small, but nice'."},
+
+{id:83,subject:"English",question:"Identify the adverb: The wicked boy slapped the girl loudly.",options:["wicked","boy","slapped","loudly"],answer:3,explanation:"Loudly is the adverb."},
+
+{id:84,subject:"English",question:"Choose the opposite of 'drought'.",options:["flood","dryness","brought","river"],answer:0,explanation:"Flood is the opposite of drought."},
+
+{id:85,subject:"English",question:"Choose the opposite of 'ability'.",options:["feasibility","unability","disability"
